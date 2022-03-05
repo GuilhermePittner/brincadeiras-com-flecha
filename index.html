@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brincando com Arrow</title>
+</head>
+<body>
+    <h1>:)</h1>
+    <script>
+
+        /* primeira função - soma */
+        function somar(val1, val2){
+            return val1 + val2;
+        }
+        console.log(somar(20, 10));
+        
+        const novaSoma = (val1, val2) => val1 + val2;
+        console.log(novaSoma(200, 500));
+        /* primeira função - soma em arrow */
+
+        /* segunda função - upper and lower case */
+        function aumentar(nome){
+            return nome.toUpperCase();
+        }
+        console.log(aumentar("Guilherme"));
+
+        const nomePequeno = nome => nome.toLowerCase();
+        console.log(nomePequeno("AUTORIZOU SILVA DO ALVES LEVOU É UMA EXPLOSIVOO!  É DO PAULO ÉMILIO SENSO LEGAL!  PULO PICADO!  TA AGARRADO!  AI AI AI!  Dj Robson Caetano  FIU FIU FIU FIIIIIIUUUU FI FIUUU!  Ronaldo! RORORORO RONALDO!"));
+        /* segunda função - upper and lower case */
+
+    </script>
+</body>
+</html>
